@@ -1,0 +1,293 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(120deg, blue, red);
+    /*overflow: scroll;*/
+}
+
+header {
+    background: yellow;
+    height: 100px;
+}
+
+.courseh1 h1 {
+    margin-top: 20px auto 0px;
+    text-align: center;
+    color: white;
+}
+
+.coursedef {
+    color: cyan;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form1 {
+    float: right;
+    height: 150px;
+    width: 250px;
+    margin-right: 10%;
+    margin-bottom: 30px;
+}
+
+legend {
+    padding: 5px;
+    background: grey;
+    color: goldenrod;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+label {
+    color: lightsteelblue;
+}
+
+button {
+    margin: 10px;
+    padding: 5px;
+    margin-left: 0px;
+    background: linear-gradient(120deg, red, blue);
+    color: white;
+    border-radius: 10px;
+}
+
+.videoln {
+    float: left;
+    margin-left: 10px;
+}
+
+.head {
+    color: cyan;
+    padding: 5px;
+    margin-right: 20px;
+    background: linear-gradient(120deg, red, blue);
+    border: 1px solid yellowgreen;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.small {
+    color: white;
+    text-indent: 10px;
+    line-height: 40px;
+}
+
+.iframes {
+    margin: 20px 20px;
+}
+
+.iframes {
+    margin: 30px 150p;
+}
+
+iframe {
+    height: 320px;
+    width: 500px;
+}
+
+hr {
+    margin: 10px;
+    color: lightcyan;
+}
+
+.videoln2,
+.videoln3 {
+    margin-top: 30px;
+}
+
+
+/* Clear floats after the columns */
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (max-width: 500px) {
+    iframe {
+        margin: 0px;
+        width: auto;
+        height: auto;
+    }
+}
+
+.references {
+    margin: 30px 20px;
+    width: 50%;
+}
+
+.references h2 {
+    color: cyan;
+    text-decoration: underline;
+    text-decoration-color: wheat;
+}
+
+.references ul {
+    list-style-type: none;
+}
+
+li span {
+    color: whitesmoke;
+}
+
+.ul1 {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.li2 a {
+    color: cyan;
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: #111;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer .container .sec {
+    margin-right: 30px;
+}
+
+footer .container .sec.aboutus {
+    width: 40%;
+}
+
+footer .container h2 {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+footer .container h2::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0px;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+
+footer p {
+    color: #999;
+}
+
+.sci {
+    margin-top: 20px;
+    display: flex;
+}
+
+.sci li {
+    list-style: none;
+}
+
+.sci li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.sci li a:hover {
+    background-color: #f00;
+}
+
+.sci li a .fab {
+    color: #fff;
+    font-size: 20px;
+}
+
+.quickLinks {
+    position: relative;
+    width: 25%;
+}
+
+.quickLinks ul li {
+    list-style: none;
+}
+
+.quickLinks ul li a {
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.quickLinks ul li a:hover {
+    color: #fff;
+}
+
+.contact {
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
+
+.contact .info {
+    position: relative;
+}
+
+.contact .info li {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.contact .info li span:nth-child(1) {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contact .info li span {
+    color: #999;
+}
+
+.contact .info li a {
+    color: #999;
+}
+
+.contact .info li a:hover {
+    color: #fff;
+}
+
+.copyrightText {
+    width: 100%;
+    background: #181818;
+    padding: 8px 100px;
+    text-align: center;
+    color: #999;
+}
+
+.para {
+    text-align: left;
+}
