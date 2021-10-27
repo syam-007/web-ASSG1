@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>PYTHON Course</title>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0,maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="../css/course.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src = "../js/python.js"></script>
+
+</head>
+
+
+<body onload = "re_render()">
+
+
+    <section id="title">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light nav-navbar-light">
+                <a class="navbar-brand" href="index.html">Webcoursera</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Courses
+                    </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="HTML.html">HTML</a>
+                                <a class="dropdown-item" href="CSS.html">CSS</a>
+                                <a class="dropdown-item" href="JAVASCRIPT.html">JAVASCRIPT</a>
+                                <a class="dropdown-item" href="JAVA.html">JAVA</a>
+                                <a class="dropdown-item" href="AJAX.html">AJAX</a>
+                                <a class="dropdown-item" href="PYTHON.html">PYTHON</a>
+
+                            </div>
+                        </li>
+
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+
+                    </form>
+                    <div class="login">
+                        <a href="login.html"> <button type="button" class="btn btn-dark">Login</button></a>
+                    </div>
+                    <div class="signup">
+                        <a href="signup.html"> <button type="button" class="btn btn-info">Sign up</button></a>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+
+    </section>
+    <br>
+
+
+    
+    <div class = "heading">
+            <h1 class = "main-head">Python Course</h1>
+        </div>
+            
+        
+
+    <h1 style="margin-left: 2.5vw;">Video Lectures</h1>
+
+        <div class = "main-div">
+            <div class = "table-div">
+                <table id = "cat-table" cellspacing = "30px"></table>
+            </div>
+            
+            <div class = "category-div">
+                <select onchange = "re_render()" name = "category" id = "category">
+                    <option value = "all" selected>All</option>
+                    <option value = "short">Short</option>
+                    <option value = "medium">Medium</option>
+                    <option value = "long">Long</option>
+                </select>
+            </div>  
+        </div>
+
+
+        <h1 style = "margin: 25px  0px 0px 2.5vw;">Reference Books</h1>
+
+        <div class="reference" id="reference">
+            <div class="reference__wrapper">
+                <div class="reference__card">
+                    <a href = "https://docs.python.org/3/tutorial/"><img src = "https://www.gom.com/-/media/gom-website/global/services/gom-training-overview/elearning/gom_elearning-python-for-beginners_teaser.jpg?as=0&dmc=0&thn=0" height="250px" width="275px" alt = "" srcset = ""></a>
+                    <a href = "https://docs.python.org/3/tutorial/"><h2>The Python Tutorial</h2></a>
+                </div>
+                <div class="reference__card">
+                    <a href = "https://cfm.ehu.es/ricardo/docs/python/Learning_Python.pdf"><img src = "https://images-na.ssl-images-amazon.com/images/I/614DWyHLwWS.jpg" height="250px" width="275px" alt = "" srcset = ""></a>
+                    <a href = "https://cfm.ehu.es/ricardo/docs/python/Learning_Python.pdf"><h2>Learning Python</h2></a>
+                </div>
+                <div class="reference__card">
+                    <a href = "https://www.programiz.com/python-programming"><img src = "https://www.softwaretestinghelp.com/wp-content/qa/uploads/2020/12/Python-Programming.png" height="250px" width="275px" alt = "" srcset = ""></a>
+                    <a href = "https://www.programiz.com/python-programming"><h2>Programiz</h2></a>
+                </div>
+                <div class="reference__card">
+                    <a href = "https://www.geeksforgeeks.org/python-programming-language/learn-python-tutorial/"><img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvkoMmvpkj8Wcw0bao9iU05SZLD7Z_i-Rs3Q&usqp=CAU" height="250px" width="275px" alt = "" srcset = ""></a>
+                    <a href = "https://www.geeksforgeeks.org/python-programming-language/learn-python-tutorial/"><h2>Geeks For Geeks</h2></a>
+                </div>
+                <div class="reference__card">
+                    <a href = "https://www.w3schools.com/python/"><img src = "https://analyticsindiamag.com/wp-content/uploads/2019/10/python-1.jpg" height="250px" width="275px" alt = "" srcset = ""></a>
+                    <a href = "https://www.w3schools.com/python/"><h2>W3Schools</h2></a>
+                </div>
+                <div class="reference__card">
+                    <a href = "https://www.tutorialspoint.com/python/index.htm"><img src = "https://www.tutorialspoint.com/python/images/python-mini.jpg" height="250px" width="275px" alt = "" srcset = ""></a>
+                    <a href = "https://www.tutorialspoint.com/python/index.htm"><h2>Tutorialspoint</h2></a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    <footer>
+        <div class="container">
+            <div class="sec aboutus">
+                <h2>About Us</h2>
+                <p class="para">Webcoursera is a global online learning platform that offers anyone, anywhere, access to online courses from leading <br>universities and companies, and to make a positive impact on society more broadly, as we continue our efforts to reduce
+                    barriers to world-class education for all.
+                </p>
+                <ul class="sci">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <div class="sec quickLinks">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Terms & consitions</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </div>
+            <div class="sec contact">
+                <h2>contact Info</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class="fas fa-map-marker-alt"></i></span>
+                        <span>675 calicut street<br>
+                            Kunthamangalam, PO ,kerala</span>
+                    </li>
+                    <li>
+                        <span><i class="fas fa-phone-alt"></i></span>
+                        <p><a href="tel:123456789">+91 000 343 2800</a></p>
+                    </li>
+                    <li>
+                        <span><i class="fas fa-envelope"></i></span>
+                        <p>
+                            <a href="mailto:Knowmore@gmail.com">mailto:Knowmore@gmail.com</a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="copyrightText">
+        <p>copyright@ 2021 online webcoursera.All Rights Reserved.</p>
+    </div>
+
+    </body>
+    </html>
